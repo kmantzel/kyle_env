@@ -1,0 +1,3 @@
+#Java 11
+export JAVA_HOME=/Users/kmantzel/Downloads/jdk-11.jdk/Contents/Home
+export PATH=$JAVA_HOME:$PATH

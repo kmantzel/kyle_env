@@ -1,0 +1,20 @@
+alias c="clear"
+alias p="pwd"
+alias l="ls -ltrah"
+alias h="history"
+
+function gproc {
+	ps aux | grep $1
+}
+
+function pcount {
+	gproc $1 | wc -l
+}
+
+function port {
+	lsof -i :$1
+}
+
+function needle {
+	grep -iR $1 $2
+}
