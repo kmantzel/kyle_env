@@ -11,6 +11,10 @@ function pcount {
 	gproc $1 | wc -l
 }
 
+function hgrep {
+	history | grep $1
+}
+
 function port {
 	lsof -i :$1
 }
