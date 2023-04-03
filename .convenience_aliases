@@ -22,3 +22,7 @@ function port {
 function needle {
 	grep -iR $1 $2
 }
+
+function copy {
+	$@ | pbcopy
+}
